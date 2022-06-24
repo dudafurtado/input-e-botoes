@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F1C44;
+}
+
+.principal {
+    width: 517px;
+    height: 765px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px 90px 50px;
+}
+
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Neuton', serif; */
+
+.principal h1 {
+    font-family: 'Neuton', serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 65px;
+}
+
+.google {
+    all: unset;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+
+    background-color: #5B86E6;
+    border-radius: 5px;
+    padding: 7px 72px;
+
+    margin-bottom: 55px;
+}
+
+img {
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+
+    margin-left: 5px;
+}
+
+.span1 {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+
+    margin-bottom: 39px;
+}
+
+.input label {
+    font-family: 'Neuton', serif; 
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.input input {
+    width: 337px;
+    padding: 25px 22px;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    width: 100%;
+
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+
+.started {
+    all: unset;
+
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+
+
+    padding: 20px 123px;
+    background: #E65B7C;
+    border-radius: 5px;
+
+    margin-bottom: 70px;
+}
+
+.span2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.span2 a:visited {
+    color: blue;
+}

@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(112, 2, 2, 0.904);
+}
+
+/* font-family: 'Corinthia', cursive; */
+
+.primeirobloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.primeirobloco img {
+    height: 120px;
+    width: 120px;
+}
+
+.primeirobloco h2 {
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    height: 282px;
+    width: 410px;
+    padding: 18px 23px;
+    background-color: rgba(106, 212, 129, 0.548);
+    border-radius: 20px;
+}
+
+.inputs label {
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.inputs input {
+    all: unset;
+    box-sizing: border-box;
+    background-color: rgba(17, 16, 16, 0.767);
+    border-radius: 14px;
+    border: 1px solid rgba(31, 29, 29, 0.616);
+    padding: 8px 20px;
+    margin-bottom: 15px;
+}
+
+.inputs input:focus {
+    border: 1px solid rgb(9, 9, 165);
+    box-shadow: 2px 2px 0.7px 0px rgb(9, 9, 165);
+}
+
+.password a {
+    text-decoration: none;
+    margin-left: 78px;
+    color: rgb(9, 9, 165);
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+button {
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    font-size: 36px;
+
+    background-color:rgba(112, 2, 2, 0.904);
+    color: rgba(106, 212, 129, 0.548);
+    border-radius: 17px;
+
+    margin-top: 12px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 165);
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border:2px solid rgba(17, 16, 16, 0.767);
+    box-shadow: 2px 2px 0.7px 0px rgba(17, 16, 16, 0.767);
+    border-radius: 6px;
+    padding: 15px 63px;
+
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.question a {
+    text-decoration: none;
+    color: rgba(106, 212, 129, 0.548);
+}
+
+.informations {
+    margin-bottom: 45px;
+
+    display: flex;
+}
+
+.informations a {
+    text-decoration: none;
+    color: rgba(106, 212, 129, 0.548);
+    margin-left: 18px;
+}
+
+.contact a {
+    color: rgba(17, 16, 16, 0.767);
+}
