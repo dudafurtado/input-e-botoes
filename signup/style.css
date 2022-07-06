@@ -42,6 +42,7 @@ font-family: 'Neuton', serif; */
 
 .google {
     all: unset;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -110,6 +111,7 @@ input::placeholder {
 
 .started {
     all: unset;
+    cursor: pointer;
 
     font-family: 'Neuton', serif;
     font-weight: 400;
@@ -133,6 +135,10 @@ input::placeholder {
     color: #000000;
 }
 
+.span2 a {
+    color: #000000;
+}
+
 .span2 a:visited {
-    color: blue;
+    color: #5B86E6;
 }

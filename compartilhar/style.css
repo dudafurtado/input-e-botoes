@@ -5,6 +5,13 @@
 }
 
 body {
+    max-width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: url(./assets/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,11 +21,10 @@ body {
 }
 
 .principal {
-    margin: 75px auto;
     width: 739px;
     height: 442px;
-    padding: 30px 30px 30px 50px;
 
+    padding: 30px 30px 30px 50px;
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -26,6 +32,10 @@ body {
 .fechar {
     display: flex;
     justify-content: flex-end;
+}
+
+.fechar img {
+    cursor: pointer;
 }
 
 .principal h1 {
@@ -59,10 +69,14 @@ input::placeholder {
 
 .input button {
     all: unset;
+    cursor: pointer;
+
     padding: 12px 35px;
     background-color: #9677EF;
     border-radius: 5px;
+
     color: white;
+
     margin-right: 55px;
 }
 
@@ -72,11 +86,11 @@ input::placeholder {
 }
 
 .bloquinho {
-    margin-top: 42px;
-    margin-bottom: 30px;
     padding: 30px 130px 6px 20px;
     background: #F8F9FD;
     border-radius: 6px;
+
+    margin: 42px 0 30px;
 }
 
 .bloquinho h3 {

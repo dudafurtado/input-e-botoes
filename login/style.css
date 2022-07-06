@@ -97,6 +97,7 @@ font-family: 'Rokkitt', serif; */
 
 .otheroptions button {
     all: unset;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -116,6 +117,10 @@ font-family: 'Rokkitt', serif; */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.center a {
+    color: #000000;
 }
 
 .span1 {
@@ -140,6 +145,7 @@ font-family: 'Rokkitt', serif; */
 
 .sociais button {
     all: unset;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
